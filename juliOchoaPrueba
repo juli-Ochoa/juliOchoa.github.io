@@ -4,5 +4,21 @@
     <meta charset="utf-8">
     <title> Titulo de la pagina</title>
 </head>
-<body></body>
+<body>
+    <h1 id="Cuadro1">
+        <p class="Primero">
+        Este es el primer parrafo
+        </p>
+    </h1>
+        <style>
+            #Cuadro1{
+            font.size: large;
+            }
+            .Primero{
+            color.blue;
+            }
+        
+        </style>
+    </h1>
+</body>
 </html>
