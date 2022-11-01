@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title> Hola este es un tiutlo</title>
+    </head>
+        <body>
+            <h1 style="background-color: brown;color: linen;font-size: larger;font-family: auto;padding: inherit;">hola este seria un texto que aparece en la pantalla </h1>
+            <h1 style="background-color: lightcyan;color: blueviolet;">Este es el segundo texto</h1>
+            <a href="https://youtu.be/xXD_IEcZbMI" target="_blank">enlace a soda stereo</a>
+            <img src="./index6_files/cordillera.jpg" alt="Imagen de cordillera" style="margin-block: auto;border-block: inherit;padding: inherit;width: 700; height: 450;">
+            <table>
+                    <tbody><tr>
+                                <td>Nombre</td>
+                                <td>Apellido</td>
+                                <td>CANCION</td>
+                            </tr>
+                            <tr>
+                                <td>Julian</td>
+                                <td>Ochoa</td>
+                                <td><a href="https://youtu.be/B2IyKhKq-hI" target="_blank"> La nave del olvido</a></td>
+                            </tr>
+                    </tbody>
+            </table>
+            
+        
+        </body>
+</html>
