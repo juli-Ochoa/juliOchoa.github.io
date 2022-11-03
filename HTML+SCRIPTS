@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/julia/Documents/Oficina/html/Pagina%20WEB.html -->
+<html leng="es" style="
+    background-color: beige;
+    max-width: 1400px;
+    margin: auto;
+    scroll-behavior: smooth;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Pagina WEB</title>
+    <script>
+        function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    </script></head>
+    
+    <body>
+        <header style="background-color: rgb(25,25,25);color: beige;position: fixed; height: 70px;justify-content: space-between;align-items: center;width: 100%;padding-top: 0px;">
+            <div class="cabecera" style="display: flex;flex-direction: row;align-items: center;text-align: center;justify-content: center;">
+                    <p class="logo" style="margin: 0;padding: 25px 25px;font-weight: bold;color: linen;align-items: center;align-content: center;display: flex;"></p>
+                    <nav style="display: flex;flex-direction: row;text-align: center;padding-bottom: 30px;align-items: center;justify-content: center;font-size: 40px;z-index: 100;">
+                        <a href="file:///C:/Users/julia/Documents/Oficina/html2/pagina.html#%20INICIO" style="padding: 10px;text-decoration: none;">Inicio</a>
+                        <a href="file:///C:/Users/julia/Documents/Oficina/html2/pagina.html#+INFO" style="padding: 10px;text-decoration: none;">Info</a>
+                        <a href="https://youtu.be/xXD_IEcZbMI" target="_blank" style="padding: 10px;text-decoration: none;">Musica</a>
+                        <ul style="
+    list-style: none;
+    display: none;
+">
+                            <li><a href="file:///C:/Users/julia/Documents/Oficina/html/lista" style="
+    color: blueviolet;
+    text-decoration: none;
+">menu</a></li>
+                                <ul style="
+    list-style: none;
+">
+                                    <li><a href="file:///C:/Users/julia/Documents/Oficina/html/lista" style="
+    color: blueviolet;
+    text-decoration: none;
+">submenu</a></li>
+                                </ul>
+                        </ul>
+                    </nav>
+             </div>
+        </header>
+        <div>
+            <section id="principal" <img="" style="background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-fancy-coffee-background-material-picture-image_1026969.jpg);width: 1400px;/* height: 600px; */display: flex;max-width: 1400px;margin: auto;text-align: center;color: beige;text-decoration: none;align-items: center;justify-content: center;flex-direction: column;height: 90vh;/* width: 100%; */" &gt;="">
+                <h1 style="font-size: 70px;"> Pasantia en <br> TreeSoft </h1>
+            </section>
+        </div>
+        <section id="secundaria" style="background-image: url(https://c8.alamy.com/compes/2jcn89d/moderno-panel-con-planta-en-una-sala-de-oficina-marco-negro-minimalista-mockup-sobre-fondo-blanco-para-el-diseno-de-los-anuncios-el-marco-cuadrado-contra-un-2jcn89d.jpg);width: 1400px;height: 800px;display: flex;align-items: center;text-align: center;padding-top: 40px;">
+            <h2 style="text-align: center;color: black;display: flex;padding-left: 250px;">Aprendiedo a programar en HTML</h2>
+        </section>
+        
+        <section id="tercera">
+            <div class="contenedor" style="background-color: rgb(25,25,25);color: beige;align-items: center;align-content: center;display: flex;flex-direction: column;justify-content: center;">
+                <h1 style="width: 5em;background-color: blueviolet;font-size:  70px;background-size: auto;">Galeria de imagenes</h1>
+                
+                <img src="./Pagina WEB_files/cafe1.jpg" style="width: 500px;padding: 25px; border-radius: 100px;">
+                <button onclick="myFunction()" name="button" style="/* background-color: dodgerblue; *//* width: 100px; *//* height: 50px; *//* border-radius: 10px; *//* color: fuchsia; */"><strong>ME GUSTA</strong></button>
+                <div id="myDIV" style="border: 1px solid black; display: none;">
+                    Este elemento aparece con el boton
+                </div>
+                <img src="./Pagina WEB_files/cafe2.jpg" style="width: 500px;padding: 15px;border-radius: 100px;">
+                <button onclick="myFunction()" name="button"><strong>ME GUSTA</strong></button>
+                <div id="myDIV" style="border:1px solid black;">
+                    Este elemento aparece con el boton
+                </div>
+                <img src="./Pagina WEB_files/cafe3.jpg" style="width: 500px;padding: 25px;border-radius: 100px;">
+                <button name="button"><strong>ME GUSTA</strong></button>
+            </div>
+        </section>  
+
+</body></html>
